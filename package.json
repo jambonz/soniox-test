@@ -1,0 +1,20 @@
+{
+  "name": "soniox-test",
+  "version": "0.0.1",
+  "description": "jambonz websocket application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "jslint": "eslint app.js lib"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@jambonz/node-client-ws": "^0.1.10",
+    "pino": "^8.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
