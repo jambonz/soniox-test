@@ -7,7 +7,15 @@ This application was created with the [create-jambonz-ws-api](https://www.npmjs.
 Based on the options that you have chosen, this application exposes the following services over a websocket interface:
 
 
-### /echo
-A application that prompts the caller for speech, transcribes it and speaks it back along with the recognized confidence factor.
+### /echo-soniox
+Test collection of an alphanumeric using soniox
+
+### /echo-google
+Test collection of an alphanumeric using google
+
+### /echo-nuance
+Test collection of an alphanumeric using nuance
+
+
 
 
